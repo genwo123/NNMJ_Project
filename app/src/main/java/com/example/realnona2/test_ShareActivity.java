@@ -42,8 +42,8 @@ public class test_ShareActivity extends AppCompatActivity implements View.OnClic
     private ListView M_V_board_share_list;
 
 
-    String mTitle[]={"건우삼겹살","종혁치킨","원준떡볶이","성욱국밥","경선초밥","도균버거","건혁 브리또","도원돈까스","경성커피"};//listview에 title부분 설정
-    String mDescription[]={"삼겹살 같이 배달하실분","축구 보기전 미리 시킬분","매운떡볶이 모집","든든한 국밥 먹죠","초밥밥 드실분","햄버거 빨리 드실분","브리또 나눔해요","맛있는 치즈돈까스","커피로 생명 연장"};//listview에 설명부분
+    String mTitle[]={"브리또","상호명","상호명","상호명","상호명","상호명","상호명","상호명","상호명"};//listview에 title부분 설정
+    String mDescription[]={"2시에 브리또 드실 분","글 내용","글 내용","글 내용","글 내용","글 내용","글 내용","글 내용","글 내용"};//listview에 설명부분
     int images[]={R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food};
     //listview에 들어가는 사진
     @Override

@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.realnona2"
-        minSdk 28
+        minSdk 29
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -28,7 +28,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.naver.maps:map-sdk:3.14.0'
+    /*implementation 'com.naver.maps:map-sdk:3.14.0'*/
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
