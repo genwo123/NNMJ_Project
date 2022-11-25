@@ -6,9 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".F_F_main_form_Activity"
-    android:background="#6441a5">
-    <!--b09cdd-->
-<!--홈 화면-->
+    android:background="">
+    <!--b09cdd,6441a5-->
+    <!--홈 화면-->
     <!--java파일은 xml명과 동일한 녀석들-->
 
 
@@ -29,7 +29,7 @@
             android:gravity="center"
             android:fontFamily="@font/l_f_binggraebold"
             android:text="너나묵자"
-            android:textColor="#9370db"
+            android:textColor="@color/white"
             android:textSize="35sp"
             android:transitionName="L_V_share_txTransition" />
 
@@ -45,7 +45,7 @@
             android:gravity="center"
 
             android:text="같이묵자"
-            android:textColor="#9370db"
+            android:textColor="@color/white"
             android:textSize="35sp"
             android:transitionName="L_V_with_txTransition" />
 
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="15sp"
-        android:backgroundTint="#9370db"
+        android:backgroundTint="#6441a5"
         android:src="@drawable/l_f_icon_add"
         />
 
@@ -92,9 +92,7 @@
         app:backgroundTint="#FFFFFF"
         app:elevation="12dp"
         app:pressedTranslationZ="12dp"/>
-<!--        app:layout_constraintBottom_toTopOf="@+id/fab1"-->
-<!--        app:layout_constraintEnd_toEndOf="@+id/fab1"/>-->
-
-
+    <!--        app:layout_constraintBottom_toTopOf="@+id/fab1"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/fab1"/>-->
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
