@@ -7,9 +7,8 @@
     app:title="."
     android:elevation="30dp"
     app:titleTextColor="#00FFFFFF"
-    android:background="#6441a5"
+    android:background="#9370db"
     app:menu="@menu/l_f_menu_toolbar">
-    <!--c174d4;,a286db;,9370db,6441a5,8b00ff,b67cff;-->
     <!--너나묵자 툴바-->
     <!--java파일은 xml명과 동일한 녀석들-->
     <TextView
@@ -24,7 +23,7 @@
         android:transitionName="L_V_share_txTransition"
         android:textSize="35sp"
         android:gravity="center"
-        android:layout_gravity="left"/>
+        android:layout_gravity="center"/>
     <!--android:includeFontPadding="false"-->
     <!--background를 투명하게 하면 애니매이션이 자세히 안나옴.-->
 </androidx.appcompat.widget.Toolbar>
