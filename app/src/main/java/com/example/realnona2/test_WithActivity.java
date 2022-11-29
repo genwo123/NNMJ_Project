@@ -40,8 +40,8 @@ public class test_WithActivity extends AppCompatActivity implements View.OnClick
     private FloatingActionButton fab, fab1, fab2;
     private ListView M_V_board_with_list;
 
-    String mTitle[]={"브리또","치킨","상호명","상호명","상호명","상호명","상호명","상호명","상호명"};//listview에 title부분 설정
-    String mDescription[]={"2시에 브리또 드실 분","글 내용","글 내용","글 내용","글 내용","글 내용","글 내용","글 내용","글 내용"};//listview에 설명부분
+    String mTitle[]={"선균파스타","종준닭갈비","원준떡볶이","도욱찜닭","선혁횟집","원우마라탕","건욱과메기","혁준족발","경성피자"};//listview에 title부분 설정
+    String mDescription[]={"파스타 같이 드실분","닭갈비 함께 먹어요","매운 떡볶이 대결 ㄱ","찜닭커플세트 드실분","회에 술한잔 해요","마라탕 매운거 잘드시는분?","과메기에 한잔","족발에 쐬주?","풀토핑갑니다"};//listview에 설명부분
     int images[]={R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food,R.drawable.ic_food};
 
 
