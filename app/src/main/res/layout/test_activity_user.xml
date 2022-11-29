@@ -39,7 +39,8 @@
                 android:id="@+id/UserinfoNum"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:text=""
+                android:fontFamily="@font/l_f_binggraebold"
+                android:text="21960005"
                 android:textSize="25sp" />
 
 
@@ -63,7 +64,8 @@
             android:id="@+id/UserinfoName"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text=""
+            android:fontFamily="@font/l_f_binggraebold"
+            android:text="김건우"
             android:textSize="25sp" />
 
 
@@ -88,7 +90,8 @@
             android:id="@+id/UserinfoClass"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text=""
+            android:fontFamily="@font/l_f_binggraebold"
+            android:text="연암공과대학교"
             android:textSize="25sp" />
 
 
@@ -117,7 +120,8 @@
                 android:id="@+id/UserinfoSex"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:text=""
+                android:fontFamily="@font/l_f_binggraebold"
+                android:text="남"
                 android:textSize="25sp" />
 
 
