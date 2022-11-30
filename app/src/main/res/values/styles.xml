@@ -18,4 +18,11 @@
     <style name="urgentButton" parent="Widget.AppCompat.Button.Colored">
         <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
     </style>
+
+    <style name="binggraeboldButton" parent="android:Widget.Button">
+        <item name="android:fontFamily">@font/l_f_binggraebold</item>
+    </style>
+    <style name="binggraeboldTextView" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/l_f_binggraebold</item>
+    </style>
 </resources>
