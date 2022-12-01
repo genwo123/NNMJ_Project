@@ -6,7 +6,7 @@
     android:id="@+id/toolbar"
     app:title="."
     app:titleTextColor="#00FFFFFF"
-    android:background="#8b00ff"
+    android:background="#b09cdd"
     android:elevation="30dp"
     app:menu="@menu/l_f_menu_toolbar">
     <!--같이묵자 툴바-->
@@ -22,7 +22,7 @@
         android:transitionName="L_V_with_txTransition"
         android:textSize="35sp"
         android:gravity="center"
-        android:layout_gravity="center"/>
+        android:layout_gravity="left"/>
        <!-- android:includeFontPadding="false"-->
 
 </androidx.appcompat.widget.Toolbar>
