@@ -7,7 +7,7 @@
     app:title="."
     android:elevation="30dp"
     app:titleTextColor="#00FFFFFF"
-    android:background="#6441a5"
+    android:background="#9370db"
     app:menu="@menu/l_f_menu_toolbar">
     <!--c174d4;,a286db;,9370db,6441a5,8b00ff,b67cff;-->
     <!--너나묵자 툴바-->
