@@ -11,5 +11,5 @@
     <color name="colorPrimary">#FFC107</color>
     <color name="colorPrimaryDark">#FF7043</color>
     <color name="colorAccent">#FFAB40</color>
-    <color name="nonapurple">#9370db</color>
+    <color name="nonapurple">#FFFFFFFF</color>
 </resources>
