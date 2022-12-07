@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:src="@drawable/load"
+        android:src="@drawable/load2"
         android:layout_gravity="center"
         />
 

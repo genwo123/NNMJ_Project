@@ -5,134 +5,98 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".test_userActivity"
-    android:orientation="vertical">
+    android:background="#9370db"
+    android:orientation="vertical"
+    >
     <!--유저 화면-->
     <!--java파일은 xml명과 동일한 녀석들-->
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/l_f_round_adg_white"
+        android:orientation="vertical">
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="648dp"
-        android:orientation="vertical"
-        android:gravity="center"
-        >
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:scaleType="fitXY" />
+
         <LinearLayout
-            android:layout_width="350dp"
+            android:layout_width="270dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal"
+            android:layout_margin="10dp"
             android:background="@drawable/l_f_round_adg_purple"
-            android:layout_margin="10dp">
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="47dp"
                 android:fontFamily="@font/l_f_binggraebold"
+                android:gravity="center"
                 android:text="학번 :  "
-                android:textSize="25sp"
-                android:gravity="center"/>
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/UserinfoNum"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-<<<<<<<<< Temporary merge branch 1
-=========
-                android:fontFamily="@font/l_f_binggraebold"
->>>>>>>>> Temporary merge branch 2
                 android:text=""
                 android:textSize="25sp" />
 
 
-        </LinearLayout>      <LinearLayout
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:background="@drawable/l_f_round_adg_purple"
-        android:layout_margin="10dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="47dp"
-            android:fontFamily="@font/l_f_binggraebold"
-            android:text="이름 :  "
-            android:textSize="25sp"
-            android:gravity="center"/>
-
-        <TextView
-            android:id="@+id/UserinfoName"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-<<<<<<<<< Temporary merge branch 1
-=========
-            android:fontFamily="@font/l_f_binggraebold"
->>>>>>>>> Temporary merge branch 2
-            android:text=""
-            android:textSize="25sp" />
-
-
-    </LinearLayout>
-        <LinearLayout
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:background="@drawable/l_f_round_adg_purple"
-        android:layout_margin="10dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="47dp"
-            android:fontFamily="@font/l_f_binggraebold"
-            android:text="소속 :  "
-            android:textSize="25sp"
-            android:gravity="center"/>
-
-        <TextView
-            android:id="@+id/UserinfoClass"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-<<<<<<<<< Temporary merge branch 1
-=========
-            android:fontFamily="@font/l_f_binggraebold"
->>>>>>>>> Temporary merge branch 2
-            android:text=""
-            android:textSize="25sp" />
-
-
-    </LinearLayout>
-
-
-
+        </LinearLayout>
 
         <LinearLayout
-            android:layout_width="350dp"
+            android:layout_width="270dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal"
+            android:layout_margin="10dp"
             android:background="@drawable/l_f_round_adg_purple"
-            android:layout_margin="10dp">
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="47dp"
                 android:fontFamily="@font/l_f_binggraebold"
-                android:text="성별 :  "
-                android:textSize="25sp"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:text="이름 :  "
+                android:textSize="25sp" />
 
             <TextView
-                android:id="@+id/UserinfoSex"
+                android:id="@+id/UserinfoName"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-<<<<<<<<< Temporary merge branch 1
-=========
+                android:text=""
+                android:textSize="25sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/l_f_round_adg_purple"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
                 android:fontFamily="@font/l_f_binggraebold"
->>>>>>>>> Temporary merge branch 2
+                android:gravity="center"
+                android:text="학과 :  "
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/UserinfoClass"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
                 android:text=""
                 android:textSize="25sp" />
 
@@ -141,40 +105,55 @@
 
 
         <LinearLayout
-            android:layout_width="122dp"
-            android:layout_height="80dp">
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="270dp"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/l_f_round_adg_purple"
             android:gravity="center"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/Logout"
-                android:layout_width="100dp"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:fontFamily="@font/l_f_binggraebold"
+                android:gravity="center"
+                android:text="성별 :  "
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/UserinfoSex"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="로그아웃">
-
-            </Button>
-
-            <Button
-                android:id="@+id/testbtn"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:text="회원탈퇴">
-
-            </Button>
+                android:text=""
+                android:textSize="25sp" />
 
 
         </LinearLayout>
 
-
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:backgroundTint="#6441a5"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="로그아웃"
+            android:textSize="15sp"
+            android:fontFamily="@font/l_f_binggraebold"/>
+        <Button
+            android:text="회원탈퇴"
+            android:textSize="15sp"
+            android:fontFamily="@font/l_f_binggraebold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:backgroundTint="#6441a5"
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
 
 </LinearLayout>
