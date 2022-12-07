@@ -28,7 +28,7 @@
             android:elevation="30dp"
             android:gravity="center"
             android:fontFamily="@font/l_f_binggraebold"
-            android:text="너나묵자"
+            android:text="노나묵자"
             android:textColor="@color/white"
             android:textSize="35sp"
             android:transitionName="L_V_share_txTransition" />

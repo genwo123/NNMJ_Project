@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".test_createparty"
     android:orientation="vertical">
-<!--게시판 화면-->
+    <!--게시판 화면-->
     <!--java파일은 xml명과 동일한 녀석들-->
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,6 +49,9 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
+
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -67,10 +70,11 @@
                 android:id="@+id/M_V_pp_name"/>
 
             <Spinner
+                android:id="@+id/category"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:id="@+id/category"/>
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -314,8 +318,9 @@
                     <fragment
                         android:layout_width="match_parent"
                         android:layout_height="180pt"
+                        android:name="com.naver.maps.map.MapFragment"
                         android:id="@+id/M_V_pp_map"/>
-                    <!--android:name="com.naver.maps.map.MapFragment"-->
+
 
 
                 </LinearLayout>

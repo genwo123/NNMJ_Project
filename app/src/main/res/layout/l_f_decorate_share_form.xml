@@ -32,13 +32,13 @@
         <include
             layout="@layout/l_f_toolbar_share" />
 
-    <ListView
-        android:id="@+id/M_V_board_shear_list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center">
+        <ListView
+            android:id="@+id/M_V_board_shear_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
 
-    </ListView>
+        </ListView>
     </LinearLayout>
 
 
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="15sp"
-        android:backgroundTint="#9370db"
+        app:backgroundTint="#9370db"
         android:src="@drawable/l_f_icon_add"
         />
 
