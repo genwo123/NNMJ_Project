@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="75dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/toolbar"
     app:title="."
-    android:elevation="30dp"
+    android:elevation="40dp"
     app:titleTextColor="#00FFFFFF"
-    android:background="#9370db"
-    app:menu="@menu/l_f_menu_toolbar">
+    android:background="@drawable/l_f_round_adg_purple2"
+    app:menu="@menu/l_f_menu_toolbar"
+    android:paddingTop="10dp">
     <!--c174d4;,a286db;,9370db,6441a5,8b00ff,b67cff;-->
     <!--너나묵자 툴바-->
     <!--java파일은 xml명과 동일한 녀석들-->
@@ -17,8 +18,7 @@
         android:id="@+id/F_V_main_share_tx"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#00ff0000"
-        android:text="너나묵자"
+        android:text="노나묵자"
         android:fontFamily="@font/l_f_binggraebold"
         android:textColor="@color/white"
         android:transitionName="L_V_share_txTransition"

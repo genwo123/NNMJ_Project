@@ -9,7 +9,7 @@ public class test_userActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.test_activity_user);
+        setContentView(R.layout.test_activity_user2);
     }
 
     @Override

@@ -6,11 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".F_F_main_form_Activity"
-    android:background="">
+    >
     <!--b09cdd,6441a5-->
 <!--홈 화면-->
     <!--java파일은 xml명과 동일한 녀석들-->
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,6 +17,20 @@
         android:gravity="center"
         android:orientation="vertical">
 
+
+     <!--   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:gravity="bottom|center">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/shareimg2"
+                android:layout_marginRight="170dp"/>
+
+        </LinearLayout>-->
         <TextView
             android:id="@+id/F_V_main_share_tx"
             android:layout_width="305dp"
@@ -28,11 +41,24 @@
             android:elevation="30dp"
             android:gravity="center"
             android:fontFamily="@font/l_f_binggraebold"
-            android:text="너나묵자"
+            android:text="노나묵자"
             android:textColor="@color/white"
             android:textSize="35sp"
             android:transitionName="L_V_share_txTransition"
             />
+      <!--  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:gravity="bottom|center">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:layout_marginRight="170dp"
+                android:src="@drawable/withiimg" />
+
+        </LinearLayout>-->
 
         <TextView
             android:id="@+id/F_V_main_with_tx"
@@ -57,7 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="15sp"
-        android:backgroundTint="#9370db"
+        app:backgroundTint="#9370db"
         android:src="@drawable/l_f_icon_add"
         />
 
