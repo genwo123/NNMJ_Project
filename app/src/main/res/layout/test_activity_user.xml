@@ -37,7 +37,7 @@
                 android:id="@+id/UserinfoNum"
                 android:layout_width="109dp"
                 android:layout_height="wrap_content"
-                android:text=""
+                android:text=" "
                 android:textSize="25sp" />
 
 
