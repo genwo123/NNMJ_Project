@@ -16,6 +16,7 @@
             android:layout_height="60dp"
             android:gravity="center"
             android:hint="가게명"
+            android:fontFamily="@font/l_f_binggraebold"
             android:inputType="text"
             android:maxLength="10"
             android:imeOptions="actionDone"
@@ -27,11 +28,13 @@
             android:layout_height="wrap_content"
             android:gravity="right">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="40pt"
                 android:layout_height="60dp"
                 android:layout_marginRight="5pt"
+                android:fontFamily="@font/l_f_binggraebold"
                 android:textSize="10pt"
+                android:background="#9370db"
                 android:id="@+id/M_V_pp_create_btn"
                 android:text="생성"/>
         </LinearLayout>
@@ -55,19 +58,22 @@
                 android:maxLength="15"
                 android:imeOptions="actionDone"
                 android:textSize="10pt"
+                android:fontFamily="@font/l_f_binggraebold"
                 android:hint="파티명을 입력해주세요."
                 android:gravity="center"
                 android:id="@+id/M_V_pp_name"/>
 
             <Spinner
+                android:id="@+id/category"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:id="@+id/category"/>
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+
                 android:orientation="vertical">
 
                 <TextView
@@ -75,6 +81,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5pt"
                     android:layout_marginTop="5pt"
+                    android:fontFamily="@font/l_f_binggraebold"
                     android:layout_marginBottom="2pt"
                     android:textSize="8pt"
                     android:text="1. 배달업체 선정"/>
@@ -90,6 +97,7 @@
                         android:layout_height="14pt"
                         android:layout_marginLeft="5pt"
                         android:textSize="7pt"
+                        android:fontFamily="@font/l_f_binggraebold"
                         android:id="@+id/M_V_pp_pf_radio_bm"
                         android:text="배달의민족"/>
 
@@ -98,6 +106,7 @@
                         android:layout_height="14pt"
                         android:layout_marginLeft="5pt"
                         android:textSize="7pt"
+                        android:fontFamily="@font/l_f_binggraebold"
                         android:id="@+id/M_V_pp_pf_radio_yo"
                         android:text="요기요"/>
 
@@ -105,6 +114,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="14pt"
                         android:layout_marginLeft="5pt"
+                        android:fontFamily="@font/l_f_binggraebold"
                         android:textSize="7pt"
                         android:id="@+id/M_V_pp_pf_radio_cu"
                         android:text="쿠팡이츠"/>
@@ -116,6 +126,7 @@
                     android:layout_marginLeft="5pt"
                     android:layout_marginTop="12pt"
                     android:layout_marginBottom="2pt"
+                    android:fontFamily="@font/l_f_binggraebold"
                     android:textSize="8pt"
                     android:text="2. 인원"/>
 
@@ -126,28 +137,34 @@
                     android:orientation="horizontal"
                     android:layout_marginBottom="1pt">
 
-                    <Button
-                        android:layout_width="60dp"
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="70dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5pt"
                         android:textSize="7pt"
+                        android:background="#9370db"
+                        android:fontFamily="@font/l_f_binggraebold"
                         android:text="1명"
                         android:id="@+id/M_V_pp_pn_1"/>
 
-                    <Button
-                        android:layout_width="60dp"
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="70dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5pt"
                         android:textSize="7pt"
+                        android:background="#9370db"
+                        android:fontFamily="@font/l_f_binggraebold"
                         android:text="2명"
                         android:id="@+id/M_V_pp_pn_2"/>
 
-                    <Button
-                        android:layout_width="60dp"
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="70dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5pt"
                         android:textSize="7pt"
+                        android:background="#9370db"
                         android:text="3명"
+                        android:fontFamily="@font/l_f_binggraebold"
                         android:id="@+id/M_V_pp_pn_3"/>
                 </LinearLayout>
 
@@ -158,26 +175,32 @@
                     android:orientation="horizontal"
                     android:layout_marginBottom="1pt">
 
-                    <Button
-                        android:layout_width="60dp"
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="70dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5pt"
                         android:textSize="7pt"
+                        android:background="#9370db"
+                        android:fontFamily="@font/l_f_binggraebold"
                         android:text="4명"
                         android:id="@+id/M_V_pp_pn_4"/>
 
-                    <Button
-                        android:layout_width="60dp"
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="70dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5pt"
+                        android:background="#9370db"
                         android:textSize="7pt"
                         android:text="5명"
+                        android:fontFamily="@font/l_f_binggraebold"
                         android:id="@+id/M_V_pp_pn_5"/>
 
-                    <Button
-                        android:layout_width="60dp"
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="70dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5pt"
+                        android:background="#9370db"
+                        android:fontFamily="@font/l_f_binggraebold"
                         android:textSize="7pt"
                         android:text="6명"
                         android:id="@+id/M_V_pp_pn_6"/>
@@ -188,6 +211,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5pt"
                     android:layout_marginTop="12pt"
+                    android:fontFamily="@font/l_f_binggraebold"
                     android:layout_marginBottom="2pt"
                     android:textSize="8pt"
                     android:text="3. 주문시간"/>
@@ -196,6 +220,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginBottom="2pt"
+                    android:fontFamily="@font/l_f_binggraebold"
                     android:gravity="center"
                     android:textSize="6pt"
                     android:text="1) 언제 먹을까요?"/>
@@ -206,19 +231,23 @@
                     android:orientation="horizontal"
                     android:gravity="center">
 
-                    <Button
+                    <androidx.appcompat.widget.AppCompatButton
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
                         android:textSize="8pt"
                         android:text="오늘"
+                        android:background="#9370db"
+                        android:fontFamily="@font/l_f_binggraebold"
                         android:id="@+id/M_V_pp_date_today"/>
 
-                    <Button
+                    <androidx.appcompat.widget.AppCompatButton
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
                         android:textSize="8pt"
                         android:layout_marginLeft="5dp"
                         android:text="내일"
+                        android:background="#9370db"
+                        android:fontFamily="@font/l_f_binggraebold"
                         android:id="@+id/M_V_pp_date_tomorrow"/>
                 </LinearLayout>
 
@@ -251,6 +280,7 @@
                     android:layout_marginTop="5pt"
                     android:layout_marginBottom="2pt"
                     android:textSize="8pt"
+                    android:fontFamily="@font/l_f_binggraebold"
                     android:text="4. 오픈 채팅방 링크"/>
 
                 <EditText
@@ -260,6 +290,7 @@
                     android:textSize="10pt"
                     android:inputType="text"
                     android:imeOptions="actionDone"
+                    android:fontFamily="@font/l_f_binggraebold"
                     android:id="@+id/M_V_pp_openchat"
                     android:hint="링크를 복사하여 붙여넣어주세요."/>
 
@@ -270,17 +301,18 @@
                     android:layout_marginTop="5pt"
                     android:layout_marginBottom="2pt"
                     android:textSize="8pt"
+                    android:fontFamily="@font/l_f_binggraebold"
                     android:text="5. 만날 장소"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
-
                     <fragment
                         android:layout_width="match_parent"
                         android:layout_height="180pt"
                         android:id="@+id/M_V_pp_map"
-                        android:name="com.naver.maps.map.MapFragment"/>
+                        android:name="com.naver.maps.map.MapFragment"
+                        tools:layout="@layout/m_f_activity_party_prod" />
 
 
                 </LinearLayout>
@@ -299,6 +331,7 @@
                         android:layout_marginTop="5pt"
                         android:layout_marginBottom="2pt"
                         android:textSize="8pt"
+                        android:fontFamily="@font/l_f_binggraebold"
                         android:text="6. 결제 방법"/>
 
                     <RadioGroup
@@ -313,6 +346,7 @@
                             android:layout_marginLeft="5pt"
                             android:textSize="7pt"
                             android:id="@+id/M_V_pp_pay1_gather"
+                            android:fontFamily="@font/l_f_binggraebold"
                             android:text="모여서 후결제"/>
 
                         <RadioButton
@@ -321,6 +355,7 @@
                             android:layout_marginLeft="5pt"
                             android:textSize="7pt"
                             android:id="@+id/M_V_pp_pay2_meet"
+                            android:fontFamily="@font/l_f_binggraebold"
                             android:text="파티장 선결제"/>
 
                         <RadioButton
@@ -330,6 +365,7 @@
                             android:textSize="7pt"
                             android:id="@+id/M_V_pp_pay3_first"
                             android:enabled="false"
+                            android:fontFamily="@font/l_f_binggraebold"
                             android:text="모아서 선결제"/>
                     </RadioGroup>
                 </LinearLayout>

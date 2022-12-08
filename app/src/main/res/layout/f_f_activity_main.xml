@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".F_F_main_form_Activity"
-    android:background="">
+    >
     <!--b09cdd,6441a5-->
     <!--홈 화면-->
     <!--java파일은 xml명과 동일한 녀석들-->
