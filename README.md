@@ -8,6 +8,7 @@
 ### 짜증난 건우
 건우는 기숙사에서 생활하는 학생으로, 배가 고파 배달 음식을 시키려고 했지만, 높은 최소주문금액과 배달비 때문에 주문을 포기해야 했습니다. 이러한 문제는 건우뿐만 아니라 많은 기숙사생들이 공통적으로 겪고 있는 불편함입니다.
 ![슬라이드5](https://github.com/user-attachments/assets/8f1ff144-a264-4dec-9364-e8fa51114279)
+![image](https://github.com/user-attachments/assets/a16ef548-9f4e-47dd-b2bf-13cfacc4f16f)
 ![슬라이드6](https://github.com/user-attachments/assets/870f0fc6-271a-48b9-b3a4-3ab7c982a05d)
 ![슬라이드7](https://github.com/user-attachments/assets/54a0b4ea-2d08-4f08-87a6-f724984f1341)
 ![슬라이드8](https://github.com/user-attachments/assets/a91c26ff-18b4-4f50-80dd-739f685a4215)
