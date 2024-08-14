@@ -7,8 +7,8 @@
 
 ### 짜증난 건우
 건우는 기숙사에서 생활하는 학생으로, 배가 고파 배달 음식을 시키려고 했지만, 높은 최소주문금액과 배달비 때문에 주문을 포기해야 했습니다. 이러한 문제는 건우뿐만 아니라 많은 기숙사생들이 공통적으로 겪고 있는 불편함입니다.
-![슬라이드5](https://github.com/user-attachments/assets/8f1ff144-a264-4dec-9364-e8fa51114279)
-![image](https://github.com/user-attachments/assets/a16ef548-9f4e-47dd-b2bf-13cfacc4f16f)
+![너나묵자_최종발표](https://github.com/user-attachments/assets/2abc6c23-1c41-4bed-9f13-15b1df77acfd)
+![건우](https://github.com/user-attachments/assets/8e904e8b-7be0-4b77-832b-a47db677021b)
 ![슬라이드6](https://github.com/user-attachments/assets/870f0fc6-271a-48b9-b3a4-3ab7c982a05d)
 ![슬라이드7](https://github.com/user-attachments/assets/54a0b4ea-2d08-4f08-87a6-f724984f1341)
 ![슬라이드8](https://github.com/user-attachments/assets/a91c26ff-18b4-4f50-80dd-739f685a4215)
@@ -17,18 +17,20 @@
 
 ### 배달 앱의 하락세
 최근 배달 앱의 인기가 떨어지는 이유 중 하나는 '배달비'의 증가입니다. 많은 사람들이 배달비 때문에 배달 음식을 포기하거나 대체 방안을 찾아야 하는 상황에 놓여 있습니다.
+![슬라이드10](https://github.com/user-attachments/assets/65b373f0-1b15-4494-8d03-eb819f56e323)
 
 ### 기존 해결 방안의 한계
 기숙사생들은 다양한 방법으로 이 문제를 해결하려고 했습니다.
-- **공공배달 앱 사용:** 하지만 낮은 활성화로 인해 등록된 가게 수가 적었습니다.
-- **포장:** 가까운 음식점까지 도보로 15분이 걸려 체력 및 시간 소모가 큽니다.
-- **커뮤니티 게시판 이용:** 다양한 주제의 글이 올라와 인원 모집이 번거로웠습니다.
-- **배달 앱의 함께 주문하기 기능:** 불특정 다수와 공유하기가 힘들었습니다.
-![슬라이드10](https://github.com/user-attachments/assets/65b373f0-1b15-4494-8d03-eb819f56e323)
 ![슬라이드11](https://github.com/user-attachments/assets/4d58f047-68a3-4e6e-ae1d-59a244130f6d)
+- **공공배달 앱 사용:** 하지만 낮은 활성화로 인해 등록된 가게 수가 적었습니다.
 ![슬라이드12](https://github.com/user-attachments/assets/2cd49ff1-bf7c-428b-96b8-2c429fb3db37)
+- **포장:** 가까운 음식점까지 도보로 15분이 걸려 체력 및 시간 소모가 큽니다.
 ![슬라이드13](https://github.com/user-attachments/assets/c7bc6de9-4ce7-465e-b429-c2e30bebcdc7)
+- **커뮤니티 게시판 이용:** 다양한 주제의 글이 올라와 인원 모집이 번거로웠습니다.
 ![슬라이드14](https://github.com/user-attachments/assets/41edc5ed-ece1-4181-9fce-a3a4f1e73792)
+- **배달 앱의 함께 주문하기 기능:** 불특정 다수와 공유하기가 힘들었습니다.
+
+
 
 ### 해결 방안: 너나묵자
 이러한 문제들을 해결하기 위해, 우리는 "너나묵자"라는 배달 커넥팅 애플리케이션을 개발했습니다. 이 앱은 불특정 사람들을 간편하게 연결하여 배달을 시킬 수 있게 도와줍니다.
