@@ -11,7 +11,6 @@
 ![건우](https://github.com/user-attachments/assets/8e904e8b-7be0-4b77-832b-a47db677021b)
 ![슬라이드6](https://github.com/user-attachments/assets/870f0fc6-271a-48b9-b3a4-3ab7c982a05d)
 ![슬라이드7](https://github.com/user-attachments/assets/54a0b4ea-2d08-4f08-87a6-f724984f1341)
-![슬라이드8](https://github.com/user-attachments/assets/a91c26ff-18b4-4f50-80dd-739f685a4215)
 ![슬라이드9](https://github.com/user-attachments/assets/9b73408f-c383-4de6-a0a7-32dadffd3c83)
 
 
@@ -60,19 +59,34 @@
 ![슬라이드23](https://github.com/user-attachments/assets/fdd3d282-d663-4802-b967-7e58f36d3d8e)
 ![슬라이드24](https://github.com/user-attachments/assets/997e1d68-cdb6-4c03-925e-93023ee929c9)
 
-## 4. 로드맵 (Roadmap)
+## 4. 앱 소개
 
 ### 현재 기능
 - **매칭 시스템:** 사용자들이 배달 파트너를 쉽게 찾을 수 있도록 도와줍니다.
 - **커뮤니티 기능:** 기숙사생들이 소통할 수 있는 공간을 제공합니다.
+![슬라이드21](https://github.com/user-attachments/assets/5e8423c3-2338-4738-90ae-8fa907462f01)
+![슬라이드22](https://github.com/user-attachments/assets/e84bd965-dd24-4719-be7b-cd9292cc2a60)
+![슬라이드23](https://github.com/user-attachments/assets/bd966f44-b500-4024-8248-1d33697d00ac)
+![슬라이드24](https://github.com/user-attachments/assets/dd3a0d0d-461d-4757-b243-db8e87ad04d6)
+
+### 사용자의 로직도 간편화
+![슬라이드25](https://github.com/user-attachments/assets/da95437a-b88c-4d69-aaf8-5169ce952107)
+![슬라이드26](https://github.com/user-attachments/assets/d468264e-3b95-4e88-85e6-3477aeca268f)
+
 
 ### 차후 계획 (Future Plans)
 - **채팅 시스템 도입:** 내부 채팅 기능을 구현하여 사용자 간의 의사소통을 더욱 원활하게 합니다.
 - **인 앱 결제 기능:** 앱 내 결제 시스템을 구축하여 사용자 편의성을 높입니다.
 - **보안 기능 업그레이드:** 학생들의 개인정보 보호를 위해 보안을 강화할 예정입니다.
 - **기타 서비스 추가:** 배달 보관함 설치 등 추가 서비스를 제공할 계획입니다.
+![슬라이드29](https://github.com/user-attachments/assets/a9c424fb-b90f-42c9-8eaf-33fbd20ca75a)
+![슬라이드30](https://github.com/user-attachments/assets/9f933ee4-1d15-4b66-b34e-b2c877baa62a)
+![슬라이드31](https://github.com/user-attachments/assets/194f6dec-837e-4406-a590-4a167d1ffc16)
 
 
+
+## 5. 사용 기술 정리
+- 기술들은 팀원들과 상의한 후 정리하도록 하겠습니다
 
 ## 6. 감사의 글 (Acknowledgements)
 이 프로젝트는 모든 팀원들의 노력과 협력으로 만들어졌습니다. 함께 힘써주신 모든 분들께 감사드립니다.
